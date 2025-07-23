@@ -31,14 +31,21 @@
 .dark3{
     color: #8987A1;
 }
+.title-color{
+    color: #E95A08;
+}
 
 /* navbar related styles */
+.full-body{
+    background-color:#F5F8FF;
+}
 .navbar{
     max-width: 1140px;
     margin: 0 auto;
     margin-top: 25px;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 0px;
 }
 .nav-element{
     align-items: center;
@@ -66,6 +73,28 @@
     align-items: center;
 }
 
+.banner{
+    margin: 0 auto;
+    margin-top: 70px;
+    max-width: 1140px;
+    align-items: end;
+}
+.banner-content{
+    margin-top: 55px;
+    margin-bottom: 0px;
+}
+.banner-title{
+    margin-bottom: 15px;
+    font-size: 4rem;
+}
+.banner-des{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 1.45rem;
+}
+.banner-img{
+    display: flex;
+}
 
 
 
@@ -86,6 +115,32 @@
     }
     .nav-cart{
         align-items: center;
+    }
+
+    /* banner related responsive */
+    
+    .banner{
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .banner-img{
+        order: 1;
+        max-width: 100%;
+        height: 245px;
+    }
+    .banner-img img{
+        width: 100%;
+    }
+    .banner-content{
+        order: 2;
+        margin: 20px 12px 0px 12px;
+    }
+    .banner-title{
+        font-size: 2rem;
+    }
+    .banner-des{
+        font-size: 0.98rem;
+        color:rgba(0, 0, 0, 0.5);
     }
 
 }
