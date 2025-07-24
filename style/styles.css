@@ -409,7 +409,7 @@
 }
 
 /* footer related style */
-.footer{
+.footer {
     max-width: 1440px;
     max-height: 348Hug;
     margin: 0 auto;
@@ -418,29 +418,36 @@
     padding: 50px 150px;
     margin-bottom: 0px;
 }
-.footer-content
-{
+
+.footer-content {
     width: 1120px;
     margin: 0 auto;
     /* border: 2px solid salmon; */
     justify-content: space-between;
     align-items: flex-start;
 }
-.f1{
+
+.f1 {
     max-width: 390px;
 }
-.f1-des{
+
+.f1-des {
     color: rgba(0, 0, 0, 0.5);
     font-size: 1.375rem;
 }
-.f2-item , .f3-item{
+
+.f2-item,
+.f3-item {
     margin-bottom: 32px;
 }
-.f2a ,.f3a{
+
+.f2a,
+.f3a {
     text-decoration: none;
     color: #6B7280;
 }
-.f4{
+
+.f4 {
     gap: 20px;
 }
 
@@ -566,10 +573,11 @@
     }
 
     .latest-deal {
-        grid-template-columns:100%;
-       row-gap: 20px;
+        grid-template-columns: 100%;
+        row-gap: 20px;
         margin-top: 45px;
     }
+
     .left {
         max-width: 95%;
         margin: 0 auto;
@@ -601,7 +609,8 @@
         top: -160px;
         left: 90px;
     }
-    .box3-des{
+
+    .box3-des {
         left: 92px;
     }
 
@@ -614,39 +623,45 @@
         margin: 0 auto;
         margin-top: 40px;
     }
-    .join-content{
+
+    .join-content {
         margin: 0 auto;
-        max-width: 320px;        
+        max-width: 320px;
     }
 
     .join-head {
         font-size: 1.25rem;
     }
 
-    .mail {
-        
-    }
+    .mail {}
 
     .join-input {
         height: 40px;
         width: 200px;
     }
+
     .btn-join {
-    height: 41px;
-    width: 100%;
-    font-weight: 500;
-}
-    .footer{
+        height: 42px;
+        width: 100%;
+        font-weight: 500;
+    }
+
+    .footer {
         padding-left: 20px;
         padding-top: 50px;
         padding-bottom: 50px;
         padding-right: 0px;
     }
 
-    .footer-content{
+    .footer-content {
         flex-direction: column;
         align-items: flex-start;
-        padding: 0;
+        gap: 20px;
+
+    }
+
+    .f2-last {
+        margin-bottom: 0px;
     }
 
 }
