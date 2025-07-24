@@ -165,10 +165,18 @@
 .F-lover-image{
     display: flex;
     align-items: center;
+    position: relative;
 
 }
-.F-lover-image img{
+.F-lover-image1{
     width: 100%; 
+}
+.badge{
+    height: auto;
+    width: 280px;
+    position: absolute;
+    right: -120px;
+    top: -130px;
 }
 .F-lover-content{
     max-width: 550px;
@@ -256,4 +264,31 @@
     .btn-plant-cart{
         padding: 18px 30px;
     }
+    
+    /* Flower lover related responsive */
+    .F-Lover{
+        flex-direction: column;
+        margin-top: 40px;
+        gap: 0px;
+    }
+    .F-lover-image{
+        
+    }
+    .badge{
+        display: none;
+    }
+    .F-lover-image{
+        margin-bottom: 0px;
+    }
+    .F-lover-content{
+        margin-top: 8px;
+    }
+    .F-lover-head{
+        font-size: 1.5rem;
+    }
+    .lover-des{
+        font-size: 0.9rem;
+    }
+
+
 }
