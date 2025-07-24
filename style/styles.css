@@ -358,6 +358,56 @@
 }
 
 
+/* Join Related Style */
+.join {
+    max-width: 1440px;
+    height: 530px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../assets/news-letter-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.join-content {
+    text-align: center;
+    max-width: 830px;
+    margin: 0 auto;
+}
+
+.join-head {
+    font-size: 3.125rem;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.join-input {
+    height: 50px;
+    width: 600px;
+    border: none;
+    padding-left: 20px;
+}
+
+.mail {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+}
+
+.btn-join {
+    background-color: rgba(233, 90, 8, 1);
+    color: white;
+    border: none;
+    height: 52px;
+    width: 100%;
+    font-weight: 500;
+}
+
 
 
 
@@ -473,12 +523,14 @@
     }
 
     /* latest deal related style */
-    .latest-content{
+    .latest-content {
         margin-top: 100px;
     }
-    .latest-des{
+
+    .latest-des {
         font-size: 0.9rem;
     }
+
     .latest-deal {
         grid-template-columns: 1fr;
         gap: 20px;
@@ -507,7 +559,8 @@
         font-size: 1rem;
     }
 
-     .box1-des ,.box3-des {
+    .box1-des,
+    .box3-des {
         top: -160px;
         left: 85px;
     }
@@ -517,5 +570,36 @@
         left: 85px;
     }
 
+    /* join related responsive */
+    .join {
+        max-width: 100%;
+        height: 270px;
+        background-image: url(../assets/news-letter-bg.png);
+        background-repeat: no-repeat;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+    .join-content{
+        margin: 0 auto;
+        max-width: 320px;        
+    }
+
+    .join-head {
+        font-size: 1.25rem;
+    }
+
+    .mail {
+        
+    }
+
+    .join-input {
+        height: 40px;
+        width: 200px;
+    }
+    .btn-join {
+    height: 41px;
+    width: 100%;
+    font-weight: 500;
+}
 
 }
